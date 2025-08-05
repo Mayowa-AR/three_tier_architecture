@@ -5,6 +5,6 @@ resource "aws_subnet" "private_subnet" {
   availability_zone       = "eu-west-1c"
 
   tags = {
-    Name = "PrivateSubnet"
+    Name = "Private-Subnet"
   }
 }
