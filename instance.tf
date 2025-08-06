@@ -9,7 +9,7 @@ resource "aws_instance" "web_1" {
 
 
   tags = {
-    "NAME" = "Web-Server-1"
+    "Name" = "Web-Server-1"
   }
 
   
@@ -27,7 +27,7 @@ resource "aws_instance" "web_2" {
 
 
   tags = {
-    "NAME" = "Web-Server-2"
+    "Name" = "Web-Server-2"
   }
 
 }
